@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.Взаиморасчеты" id="f4e4c3a6-18f5-43c6-932c-1b24f2b847b4" configVersion="84ccc0e168d2394a8e3f3b8424811cc900000000">
+			<Metadata name="AccumulationRegister.Взаиморасчеты.Dimension.Собственник" id="254f90f6-b127-44f2-89e8-3fac74d58291"/>
+			<Metadata name="AccumulationRegister.Взаиморасчеты.Dimension.Бокс" id="d1a63b29-d27c-45bf-abc2-d67b079028af"/>
+			<Metadata name="AccumulationRegister.Взаиморасчеты.Resource.Сумма" id="ed53c402-273a-49e4-baab-60c6d2fc19a8"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.ПотреблениеЭлектроэнергии" id="f0112290-d358-403f-8b8d-3b0af94cd9c4" configVersion="aea44fbf40e92e448b725ac1f7095d9c00000000">
+			<Metadata name="AccumulationRegister.ПотреблениеЭлектроэнергии.Dimension.ТипСчетчика" id="1c2426b7-7f3d-4882-85a7-1ad55d94ff92"/>
+			<Metadata name="AccumulationRegister.ПотреблениеЭлектроэнергии.Dimension.Бокс" id="3d473a85-37c5-4f28-b445-b572d992baef"/>
+			<Metadata name="AccumulationRegister.ПотреблениеЭлектроэнергии.Resource.КвтЧ" id="5e0079fd-4fbe-4ca2-a474-37c51a6375fd"/>
+			<Metadata name="AccumulationRegister.ПотреблениеЭлектроэнергии.Dimension.Счетчик" id="ccd745e2-1f12-4c17-bc83-bf6836eeb496"/>
+			<Metadata name="AccumulationRegister.ПотреблениеЭлектроэнергии.Dimension.Ввод" id="f2ba5183-3280-4158-b001-fe1d11becea3"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.РасчетыСЭлектросетью" id="a7aed4a5-152c-46d0-89d5-323935ed0e0e" configVersion="6c0d78a235e58a49834e14b4a0dca31700000000">
+			<Metadata name="AccumulationRegister.РасчетыСЭлектросетью.Resource.Сумма" id="c0bfaba4-fba3-4b5b-bc82-4297242e03dd"/>
+			<Metadata name="AccumulationRegister.РасчетыСЭлектросетью.Dimension.Ввод" id="efeafae1-e04e-4652-ae79-8406bca760d7"/>
+		</Metadata>
+		<Metadata name="Catalog.ВводыЭлектроснабжения" id="5402a795-faf8-430e-a0f7-77a6b829b532" configVersion="b16bca04789ed847b80c454be277451c00000000">
+			<Metadata name="Catalog.ВводыЭлектроснабжения.Attribute.КоэффициентПотерь" id="c7e50650-0dad-4574-aae4-30b8c0584e90"/>
+		</Metadata>
+		<Metadata name="Catalog.Владельцы" id="b11f8db4-f8ca-40cd-a8d6-8eedc8b91cf1" configVersion="0d64409af1463743827745c9a809f11900000000">
+			<Metadata name="Catalog.Владельцы.Attribute.Телефон" id="b43239b1-ab19-4acb-bbcc-9cf80556a3bc"/>
+			<Metadata name="Catalog.Владельцы.Attribute.КонтактноеЛицо" id="f0264779-63f3-4b03-8673-04534553b6a5"/>
+		</Metadata>
+		<Metadata name="Catalog.Владельцы.Form.ФормаСписка" id="c53f72a3-44e4-491b-b893-877782f80411" configVersion="002b12b6d3bca14c9a33432aa075a82300000000"/>
+		<Metadata name="Catalog.Владельцы.Form.ФормаСписка.Form" id="c53f72a3-44e4-491b-b893-877782f80411.0" configVersion="ab7e3dbdce76134f88c82dcf395d20b000000000"/>
+		<Metadata name="Catalog.Владельцы.Form.ФормаЭлемента" id="c66ddf6a-1f40-4ec5-b17d-b5550c9d080c" configVersion="8494fada71d2d741998b586933784bbd00000000"/>
+		<Metadata name="Catalog.Владельцы.Form.ФормаЭлемента.Form" id="c66ddf6a-1f40-4ec5-b17d-b5550c9d080c.0" configVersion="7ea99985dfc46d4cb257b48bcefd70f300000000"/>
+		<Metadata name="Catalog.ГаражныеБоксы" id="a2ddd334-9679-440d-9444-59d77cbbe80d" configVersion="06e2084ce2b86648aba87d06108081fc00000000">
+			<Metadata name="Catalog.ГаражныеБоксы.Attribute.Ввод" id="e9bc6572-584d-4cba-b161-25c5f339e7c3"/>
+		</Metadata>
+		<Metadata name="Catalog.ГаражныеБоксы.Form.ФормаВыбора" id="914eabd7-b5f3-4c8a-8f2a-346822ee9185" configVersion="74b6f20010cb714d870470f181f9e7c100000000"/>
+		<Metadata name="Catalog.ГаражныеБоксы.Form.ФормаВыбора.Form" id="914eabd7-b5f3-4c8a-8f2a-346822ee9185.0" configVersion="b162cb9de3edfb43b6c64f35228819e400000000"/>
+		<Metadata name="Catalog.ГаражныеБоксы.Form.ФормаСписка" id="c0c298d4-8b08-4b12-adc1-023ec113e04b" configVersion="9f0cc1b5f5c0094e88681b305eadabcc00000000"/>
+		<Metadata name="Catalog.ГаражныеБоксы.Form.ФормаСписка.Form" id="c0c298d4-8b08-4b12-adc1-023ec113e04b.0" configVersion="7f208e3450540f4fa7b4c76e683764a800000000"/>
+		<Metadata name="Catalog.ГаражныеБоксы.Form.ФормаЭлемента" id="b93b9f2f-95db-4855-8405-4f116088ee50" configVersion="a35fac02f1b528498bee257561ecc2f300000000"/>
+		<Metadata name="Catalog.ГаражныеБоксы.Form.ФормаЭлемента.Form" id="b93b9f2f-95db-4855-8405-4f116088ee50.0" configVersion="e4326ea1da547a43bb6468444fb7d11800000000"/>
+		<Metadata name="Catalog.Счетчики" id="573f0411-a096-44fc-a514-28d390443319" configVersion="7c12b5e35ea9f34ea2e14f122e65c69800000000">
+			<Metadata name="Catalog.Счетчики.Attribute.ДатаСледующейПоверки" id="09a3b0a6-48eb-4ee1-ae6d-49ee621ae477"/>
+			<Metadata name="Catalog.Счетчики.Attribute.КоэффициентТрансформации" id="117a1876-3f86-420f-aeec-def10f8c6d48"/>
+			<Metadata name="Catalog.Счетчики.Attribute.ДатаПоверки" id="1840e48b-8d92-4ee2-9d0a-3478fee86874"/>
+			<Metadata name="Catalog.Счетчики.Attribute.МежповерочныйИнтервал" id="a51ee6d6-3aae-4dd3-936c-5ae65f6544b8"/>
+			<Metadata name="Catalog.Счетчики.Attribute.Ввод" id="b678ea13-107f-4444-b316-c246b5998f0d"/>
+			<Metadata name="Catalog.Счетчики.Attribute.ТипСчетчика" id="f03bb9e5-a80b-47f6-a03a-94a509ed68dd"/>
+		</Metadata>
+		<Metadata name="Catalog.Счетчики.ObjectModule" id="573f0411-a096-44fc-a514-28d390443319.0" configVersion="8cb3458dbdfcb9458721717baad1416b00000000"/>
+		<Metadata name="Catalog.Тарифы" id="8a9bd1fa-9d87-4181-8097-be55d7f19530" configVersion="a334af04f6bc9d4089c8b0a93c11044c00000000"/>
+		<Metadata name="CommonModule.ЭлектроУчет" id="625827c3-4ec6-4e3c-9fc1-697ad42d151d" configVersion="e70006e2c0d7784c8e3b6a5b5943ea7500000000"/>
+		<Metadata name="CommonModule.ЭлектроУчет.Module" id="625827c3-4ec6-4e3c-9fc1-697ad42d151d.0" configVersion="135650a3ee16ee49837959437687babd00000000"/>
+		<Metadata name="Configuration.УчётЭлектроэнергииГСК" id="0837ef79-c23b-423e-8922-b2ccc0b8861c" configVersion="a5e5ab347a70f24bb80f7ddc57d33dfe00000000"/>
+		<Metadata name="Configuration.УчётЭлектроэнергииГСК.ClientApplicationInterface" id="49920b39-e153-46da-ba97-0b9f6d5cfa47.b" configVersion="9bcc62e11714464aa97275b8bff4d2a100000000"/>
+		<Metadata name="Configuration.УчётЭлектроэнергииГСК.CommandInterface" id="49920b39-e153-46da-ba97-0b9f6d5cfa47.a" configVersion="1088740ca8a5fb47877f52577ebebd4500000000"/>
+		<Metadata name="Configuration.УчётЭлектроэнергииГСК.HomePageWorkArea" id="49920b39-e153-46da-ba97-0b9f6d5cfa47.8" configVersion="b80432b55878d24482cf9854f3448bca00000000"/>
+		<Metadata name="DataProcessor.ВводПлатежейСписком" id="3442d834-b8b6-4002-93af-91dfcd92de50" configVersion="0520f4019b0dc84bb751f85e8d7fae4200000000">
+			<Metadata name="DataProcessor.ВводПлатежейСписком.TabularSection.Платежи.Attribute.Комментарий" id="590a563f-6791-4807-b7b2-987b25f5d25e"/>
+			<Metadata name="DataProcessor.ВводПлатежейСписком.TabularSection.Платежи" id="94c70cfe-62c3-4be1-a9ea-c2d2e7b783fc"/>
+			<Metadata name="DataProcessor.ВводПлатежейСписком.TabularSection.Платежи.Attribute.Бокс" id="c45d9b1d-56b2-470b-9cfc-6b02a1f82e29"/>
+			<Metadata name="DataProcessor.ВводПлатежейСписком.TabularSection.Платежи.Attribute.Сумма" id="e3beaf2c-d47d-4e7c-b9d1-6a7f5c4f41c0"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ВводПлатежейСписком.Form.Форма" id="f8e272ed-940b-464b-95fd-e0ade34011b5" configVersion="38c71bfe86af084aae37f888ab84705e00000000"/>
+		<Metadata name="DataProcessor.ВводПлатежейСписком.Form.Форма.Form" id="f8e272ed-940b-464b-95fd-e0ade34011b5.0" configVersion="232b45da9bb0ba4da7870ea07e7e9ec300000000"/>
+		<Metadata name="DataProcessor.МассовоеСозданиеБоксов" id="55b8fd16-5da8-4e20-b6b8-661be952308a" configVersion="27f3502bf79b964eaf1ba96b230ef53200000000"/>
+		<Metadata name="DataProcessor.МассовоеСозданиеБоксов.Form.Форма" id="88491111-27c4-4590-9880-fc6f27737d31" configVersion="60b7cf8beaae0c4fbf22e1de5160559900000000"/>
+		<Metadata name="DataProcessor.МассовоеСозданиеБоксов.Form.Форма.Form" id="88491111-27c4-4590-9880-fc6f27737d31.0" configVersion="8e0a4ef48464cc4591905326b297d19c00000000"/>
+		<Metadata name="Document.ВводНачальныхДолговПереплат" id="02a3ddd7-f1e8-44a4-8b8f-612e01f34578" configVersion="e073cda8d63b10459a148f142fa9731000000000">
+			<Metadata name="Document.ВводНачальныхДолговПереплат.TabularSection.Долги" id="5d304390-7022-4c9b-95fb-b98589cf4e93"/>
+			<Metadata name="Document.ВводНачальныхДолговПереплат.TabularSection.Долги.Attribute.Бокс" id="8f23a9ad-f6ff-4f84-8a0a-6b1c435b214c"/>
+			<Metadata name="Document.ВводНачальныхДолговПереплат.TabularSection.Долги.Attribute.Сумма" id="99f3f460-58e7-48bb-8ea4-3d4a25532466"/>
+			<Metadata name="Document.ВводНачальныхДолговПереплат.TabularSection.Долги.Attribute.Собственник" id="9ea396b7-5a92-4577-b290-8ebe2b094a2d"/>
+			<Metadata name="Document.ВводНачальныхДолговПереплат.Attribute.Комментарий" id="f892a6e1-956d-4075-81df-f881db5f0093"/>
+		</Metadata>
+		<Metadata name="Document.ВводНачальныхДолговПереплат.Form.ФормаДокумента" id="33aeeb8e-3717-4f89-bd60-7729bc782128" configVersion="acbac58a0170194d9024859b6c22239b00000000"/>
+		<Metadata name="Document.ВводНачальныхДолговПереплат.Form.ФормаДокумента.Form" id="33aeeb8e-3717-4f89-bd60-7729bc782128.0" configVersion="a521838919bfa44faac847fc092d72f200000000"/>
+		<Metadata name="Document.ВводНачальныхДолговПереплат.ObjectModule" id="02a3ddd7-f1e8-44a4-8b8f-612e01f34578.0" configVersion="9e01783b474eb5469a8a21142698ca9f00000000"/>
+		<Metadata name="Document.ЗаменаСчетчика" id="507d9e4a-21e4-496e-8011-6d9b9566f322" configVersion="0dda9d0cb93c55488000247a80ded19600000000">
+			<Metadata name="Document.ЗаменаСчетчика.Attribute.СтарыйСчетчик" id="31dc756a-77a8-4811-9763-c61ab6a7cccb"/>
+			<Metadata name="Document.ЗаменаСчетчика.Attribute.Бокс" id="4b942351-222f-4a2a-b251-6cbbdbf13d4c"/>
+			<Metadata name="Document.ЗаменаСчетчика.Attribute.ПоказаниеСтарогоПриДемонтаже" id="98e58265-4fcc-4053-bc70-31086072493c"/>
+			<Metadata name="Document.ЗаменаСчетчика.Attribute.Комментарий" id="9b555380-0b3b-4689-a453-c524d33a7d7d"/>
+			<Metadata name="Document.ЗаменаСчетчика.Attribute.НачальноеПоказаниеНового" id="a2330d24-8d1f-4ce6-855b-b508d15a6829"/>
+			<Metadata name="Document.ЗаменаСчетчика.Attribute.НовыйСчетчик" id="b47f3937-e60a-42ba-a2df-c238319e9b8c"/>
+			<Metadata name="Document.ЗаменаСчетчика.Attribute.СнятПрежний" id="c1347cfb-9fd2-4f16-94d7-baede1b71c23"/>
+			<Metadata name="Document.ЗаменаСчетчика.Attribute.ПотреблениеДоДемонтажа" id="fab0f724-56c1-462a-9285-c288ac89ad31"/>
+		</Metadata>
+		<Metadata name="Document.ЗаменаСчетчика.Form.ФормаДокумента" id="710cfb7d-739e-4549-9bf9-75d0019f015d" configVersion="dfde6d2c9a8bdd418659952b961f5ae400000000"/>
+		<Metadata name="Document.ЗаменаСчетчика.Form.ФормаДокумента.Form" id="710cfb7d-739e-4549-9bf9-75d0019f015d.0" configVersion="1cb3cc4d7948704d8cf16bf47ce28f6600000000"/>
+		<Metadata name="Document.ЗаменаСчетчика.ManagerModule" id="507d9e4a-21e4-496e-8011-6d9b9566f322.2" configVersion="d1e7c5d2bc80ac41b14163cf3bc2598700000000"/>
+		<Metadata name="Document.ЗаменаСчетчика.ObjectModule" id="507d9e4a-21e4-496e-8011-6d9b9566f322.0" configVersion="ef21fca08af4fc48b88328816554ce0200000000"/>
+		<Metadata name="Document.НачислениеЭлектроэнергии" id="71c4b75a-0d50-4627-b78e-cfc819ffc4ba" configVersion="2205b7efbd422748a82f2ce9a0583cd900000000">
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.КонтрольнаяСумма" id="00028a6b-2275-44b9-adf5-fb6643db9ba8"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.СуммаОДН" id="009a7138-72a0-458d-94fb-d0338a398366"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.КвтОДН" id="01929b0f-7ce0-4f67-ba6a-fc44f68e930a"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.СуммаАдминистрирования" id="063e398d-338d-4492-936a-ff305c532254"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.СуммаНачислено" id="33974007-44ef-46ac-9a87-dae8298f0e40"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.ФактическийТариф" id="3a4a86fa-78ec-4b57-b271-85e6259bcb9e"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.КоэффициентыВводов" id="4bfd8f1c-150e-4821-8ae6-673fbab34d75"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.ИндивидуальноеПотреблениеКвт" id="4f2454ff-4e29-4ead-94d8-270166117ebe"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.ОбщееПотреблениеУчетноеКвт" id="56ff5ddd-d904-49a6-81f5-91a9057cf98c"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.ЦенаТарифа" id="5ffc814f-0d95-4502-89b8-f2be93788934"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.ОбщееПотреблениеКвт" id="617e6559-f087-4b81-8e13-71905eaadd70"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.КоличествоБоксов" id="6729864f-39ab-42b9-ace6-49b01ec22bc2"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления" id="7016d8d0-953c-46ae-a534-1e32ed44c44e"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.Ввод" id="84eb6390-14a4-4c9c-a21b-d8abc1090324"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.Собственник" id="8f60efc8-6bea-409c-a8ff-270230c85d83"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.ТарифПримененный" id="a26ef253-a266-4c28-811f-c87acd55a187"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.ПерерасходКвт" id="b035533b-c0d2-461d-a0b8-b971a3314d7f"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.СуммаИндивидуально" id="c2575ee2-63a9-48c4-9d0a-0c50198ffe56"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.КвтИндивидуально" id="d1f4106f-2672-4df3-a1cc-a3562e78f31b"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.Период" id="d299c1fe-7ce3-4154-8ac8-bc3a5ffab904"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.СпособРаспределения" id="db3ea189-0ee2-4bfb-9c87-e5678b320519"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.Бокс" id="e0ab46a9-0bb2-4d82-b25c-e17adbd42744"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.Attribute.Тариф" id="e31ad7cd-f000-4f19-a477-d222c527a9a7"/>
+			<Metadata name="Document.НачислениеЭлектроэнергии.TabularSection.Начисления.Attribute.СуммаИтого" id="ecda269a-4bea-4f38-9e6e-8851d54f5d86"/>
+		</Metadata>
+		<Metadata name="Document.НачислениеЭлектроэнергии.Form.ФормаДокумента" id="b1a11445-2aab-41ec-b09d-b46488a818f9" configVersion="cfb3339d0e12444998fe1e905cfe9a6f00000000"/>
+		<Metadata name="Document.НачислениеЭлектроэнергии.Form.ФормаДокумента.Form" id="b1a11445-2aab-41ec-b09d-b46488a818f9.0" configVersion="6069c7fa61a6b341be5cd103ab10cca300000000"/>
+		<Metadata name="Document.НачислениеЭлектроэнергии.Form.ФормаСписка" id="0be11ddd-d609-4cee-9a1b-d896255d68e2" configVersion="145bb1fa13b1694f8d8a7b2213c8bd2000000000"/>
+		<Metadata name="Document.НачислениеЭлектроэнергии.Form.ФормаСписка.Form" id="0be11ddd-d609-4cee-9a1b-d896255d68e2.0" configVersion="6e8ad5911e2ef24e9ff77b83aedb8bc000000000"/>
+		<Metadata name="Document.НачислениеЭлектроэнергии.ManagerModule" id="71c4b75a-0d50-4627-b78e-cfc819ffc4ba.2" configVersion="766c4e1baba0f940b13b2b285d3a1a1d00000000"/>
+		<Metadata name="Document.НачислениеЭлектроэнергии.ObjectModule" id="71c4b75a-0d50-4627-b78e-cfc819ffc4ba.0" configVersion="0ceef2d56a9350459683d65cb26969e400000000"/>
+		<Metadata name="Document.НачислениеЭлектроэнергии.Template.Квитанция" id="7ac957bf-b336-4852-92e0-8e41aff389aa" configVersion="d79151ac29bfbf48a7b78ccdb3149b1c00000000"/>
+		<Metadata name="Document.НачислениеЭлектроэнергии.Template.Квитанция.Template" id="7ac957bf-b336-4852-92e0-8e41aff389aa.0" configVersion="c4602d1172a0114ea87c4e1d921fe16900000000"/>
+		<Metadata name="Document.ОплатаЭлектросети" id="c08f7acd-e1b0-45d8-900b-1357e4df747f" configVersion="cebdfd63f15ff44082a7c815a60b517200000000">
+			<Metadata name="Document.ОплатаЭлектросети.Attribute.Комментарий" id="3d8aa728-d193-4d49-aac6-09b4ec7ba194"/>
+			<Metadata name="Document.ОплатаЭлектросети.Attribute.Ввод" id="69dd8358-bb53-4c2d-aa89-a8b415a08235"/>
+			<Metadata name="Document.ОплатаЭлектросети.Attribute.Сумма" id="b1ce5050-9b95-42b4-9169-d091b86e967e"/>
+			<Metadata name="Document.ОплатаЭлектросети.Attribute.Период" id="e86f332d-171d-4ca8-b9d0-4c4e1200a257"/>
+			<Metadata name="Document.ОплатаЭлектросети.Attribute.НомерПлатежа" id="f6c94d57-39f6-4974-ab0e-6e26139c5445"/>
+		</Metadata>
+		<Metadata name="Document.ОплатаЭлектросети.Form.ФормаДокумента" id="14f12f4a-9d87-42a3-8050-f064f32bdfaf" configVersion="bd69b2e0e8d4504dbd6cf60f1aa3f0d500000000"/>
+		<Metadata name="Document.ОплатаЭлектросети.Form.ФормаДокумента.Form" id="14f12f4a-9d87-42a3-8050-f064f32bdfaf.0" configVersion="894337f3c2dc1a458d62f8ae6fc8bcaa00000000"/>
+		<Metadata name="Document.ОплатаЭлектросети.ObjectModule" id="c08f7acd-e1b0-45d8-900b-1357e4df747f.0" configVersion="5e0d2813132d2b4d9911d2a972b80efa00000000"/>
+		<Metadata name="Document.ПоказанияСчетчиков" id="6c3158ac-6254-4ec0-93a7-11581e211aab" configVersion="2986f117b8dfea4d8f322fce9c0b785400000000">
+			<Metadata name="Document.ПоказанияСчетчиков.TabularSection.Показания" id="62dc5838-039b-4851-b21c-b83b0eb1ccb7"/>
+			<Metadata name="Document.ПоказанияСчетчиков.TabularSection.Показания.Attribute.ПредыдущееПоказание" id="a811bce9-ed48-4cd0-ab70-05692dca26cb"/>
+			<Metadata name="Document.ПоказанияСчетчиков.TabularSection.Показания.Attribute.ПотреблениеКвт" id="c329a3d8-76b2-49d4-95aa-73ddb2c1f79a"/>
+			<Metadata name="Document.ПоказанияСчетчиков.TabularSection.Показания.Attribute.Показание" id="db743e37-be7f-495e-b384-1a6a7bbfc60a"/>
+			<Metadata name="Document.ПоказанияСчетчиков.TabularSection.Показания.Attribute.Счетчик" id="f95fcccb-cb1a-4abe-a1d6-92ec08da7ee5"/>
+		</Metadata>
+		<Metadata name="Document.ПоказанияСчетчиков.Form.ФормаДокумента" id="69ae88d2-f83e-44c0-91b8-650225b89f7b" configVersion="ba7b73aaa194e048a85d3d087a1188da00000000"/>
+		<Metadata name="Document.ПоказанияСчетчиков.Form.ФормаДокумента.Form" id="69ae88d2-f83e-44c0-91b8-650225b89f7b.0" configVersion="f7ffda5005491e4087b8db007da800d600000000"/>
+		<Metadata name="Document.ПоказанияСчетчиков.Form.ФормаПланшет" id="1a2368a0-88b3-4c26-8ca6-0c543ee7361b" configVersion="5bca48fe011aae4f91b5407eb32f225e00000000"/>
+		<Metadata name="Document.ПоказанияСчетчиков.Form.ФормаПланшет.Form" id="1a2368a0-88b3-4c26-8ca6-0c543ee7361b.0" configVersion="20afe9af4a1fc84589270e744a2820d400000000"/>
+		<Metadata name="Document.ПоказанияСчетчиков.Form.ФормаСписка" id="111223ef-5be5-452c-b59e-f847390249ae" configVersion="28cf08f8795d58458b8909527743552d00000000"/>
+		<Metadata name="Document.ПоказанияСчетчиков.Form.ФормаСписка.Form" id="111223ef-5be5-452c-b59e-f847390249ae.0" configVersion="47a866ae947c3240955813a98b9c781800000000"/>
+		<Metadata name="Document.ПоказанияСчетчиков.ObjectModule" id="6c3158ac-6254-4ec0-93a7-11581e211aab.0" configVersion="1705af4099e7df46b1f17229a974976e00000000"/>
+		<Metadata name="Document.ПоступлениеПлатежа" id="32ba3b9b-683e-48de-84b6-fbec7cd3ef59" configVersion="a81fc4fbe09533438529576b405e959500000000">
+			<Metadata name="Document.ПоступлениеПлатежа.Attribute.Сумма" id="22eddbe9-f996-4f5c-bd9b-e6736e0dae9e"/>
+			<Metadata name="Document.ПоступлениеПлатежа.Attribute.СпособПоступления" id="383ee9ea-e5b1-47fa-a0dd-68ab98589eb2"/>
+			<Metadata name="Document.ПоступлениеПлатежа.Attribute.Бокс" id="49571d08-5f26-4dc5-9f79-9b7ffea8a7a7"/>
+			<Metadata name="Document.ПоступлениеПлатежа.Attribute.Комментарий" id="49ca0932-14b0-485d-a53b-bbc1b935dfaa"/>
+			<Metadata name="Document.ПоступлениеПлатежа.Attribute.НомерКвитанции" id="bef681d2-30eb-4e7e-b508-10cc88c8ffef"/>
+			<Metadata name="Document.ПоступлениеПлатежа.Attribute.Собственник" id="d6d1b228-9fd2-4d90-8cac-74277b912135"/>
+		</Metadata>
+		<Metadata name="Document.ПоступлениеПлатежа.Form.ФормаДокумента" id="b0a37171-65e1-4a37-8de1-2a78d47b37e5" configVersion="bb69c4282eb7e34b98f8b892ecdf6b5d00000000"/>
+		<Metadata name="Document.ПоступлениеПлатежа.Form.ФормаДокумента.Form" id="b0a37171-65e1-4a37-8de1-2a78d47b37e5.0" configVersion="6545b76490da3a4fbc016eda71fb6d1700000000"/>
+		<Metadata name="Document.ПоступлениеПлатежа.Form.ФормаСписка" id="d2b9848f-95e9-422a-a911-1f2a29fb9cb0" configVersion="934d80812faaf446876ecb2bf1317f9400000000"/>
+		<Metadata name="Document.ПоступлениеПлатежа.Form.ФормаСписка.Form" id="d2b9848f-95e9-422a-a911-1f2a29fb9cb0.0" configVersion="fa333eef19032949bdb2fc8f4cab23d600000000"/>
+		<Metadata name="Document.ПоступлениеПлатежа.ObjectModule" id="32ba3b9b-683e-48de-84b6-fbec7cd3ef59.0" configVersion="9a14035adbf0714d800f3a59e9f6c91000000000"/>
+		<Metadata name="Document.СменаСобственника" id="b3e07ec4-d710-4869-947b-b742443947d4" configVersion="fc637b7749928046beb14270d7636d4600000000">
+			<Metadata name="Document.СменаСобственника.Attribute.Бокс" id="0343c39b-f93e-4b44-b47a-ae7da0ab7fcf"/>
+			<Metadata name="Document.СменаСобственника.Attribute.Комментарий" id="58a5b82e-13d6-4f33-9b45-2f817c44dea3"/>
+			<Metadata name="Document.СменаСобственника.Attribute.НовыйСобственник" id="efc44f1f-f7f7-4bc4-9516-2addf350f4dc"/>
+		</Metadata>
+		<Metadata name="Document.СменаСобственника.Form.ФормаДокумента" id="0f5e4d1d-5dc9-4a34-8ec9-a51297f68421" configVersion="8c398a8f441b5644bd8c3c334df5e59100000000"/>
+		<Metadata name="Document.СменаСобственника.Form.ФормаДокумента.Form" id="0f5e4d1d-5dc9-4a34-8ec9-a51297f68421.0" configVersion="2a535ea07e39414985ebfff04d3657ed00000000"/>
+		<Metadata name="Document.СменаСобственника.ObjectModule" id="b3e07ec4-d710-4869-947b-b742443947d4.0" configVersion="d374448759c457428f48437a878a452800000000"/>
+		<Metadata name="Document.УстановкаСчетчика" id="0b6ec778-ea6d-4e7d-a184-194bff4d79c7" configVersion="b113fb43b715f14697cb43d02cf62c8600000000">
+			<Metadata name="Document.УстановкаСчетчика.Attribute.Бокс" id="3b2f2ec1-3923-4bdf-967c-5dd1580c9a13"/>
+			<Metadata name="Document.УстановкаСчетчика.Attribute.НачальноеПоказание" id="97aed4d6-0738-42d1-bf06-7ede604bbc1a"/>
+			<Metadata name="Document.УстановкаСчетчика.Attribute.Комментарий" id="c91de7ac-fcba-4234-849e-2b43ef1ab2cb"/>
+			<Metadata name="Document.УстановкаСчетчика.Attribute.Ввод" id="ebdfded0-be2f-4c73-af34-3fddfff88c6e"/>
+			<Metadata name="Document.УстановкаСчетчика.Attribute.Счетчик" id="f9f82456-d46e-47b1-93c2-e965c2c33d14"/>
+		</Metadata>
+		<Metadata name="Document.УстановкаСчетчика.Form.ФормаДокумента" id="c9939970-d1be-4743-9e7f-a39f3644c5e6" configVersion="7ab01091196834408674af7a7028200600000000"/>
+		<Metadata name="Document.УстановкаСчетчика.Form.ФормаДокумента.Form" id="c9939970-d1be-4743-9e7f-a39f3644c5e6.0" configVersion="102a6652d822cd4dbe9b2a63f1dded7c00000000"/>
+		<Metadata name="Document.УстановкаСчетчика.ObjectModule" id="0b6ec778-ea6d-4e7d-a184-194bff4d79c7.0" configVersion="817909fd52d7094e9617f54b9164468d00000000"/>
+		<Metadata name="Document.УстановкаТарифа" id="d88f05df-c3e0-41ae-9669-a4e8024d4396" configVersion="051d9ebd8eb7394e9204d327ed5de85500000000">
+			<Metadata name="Document.УстановкаТарифа.Attribute.НоваяЦена" id="2f5fb70c-7099-4a21-b145-69419ba647a2"/>
+			<Metadata name="Document.УстановкаТарифа.Attribute.Тариф" id="c7568b53-8d60-49d7-9e83-9980dbc764a2"/>
+			<Metadata name="Document.УстановкаТарифа.Attribute.Комментарий" id="fe27db83-b577-49b0-8069-98e9a4d49ca8"/>
+		</Metadata>
+		<Metadata name="Document.УстановкаТарифа.Form.ФормаДокумента" id="8d529d55-79e5-4fa5-938a-8d86c3a292fb" configVersion="963e135eec038141a7ff8eb08e3bd11900000000"/>
+		<Metadata name="Document.УстановкаТарифа.Form.ФормаДокумента.Form" id="8d529d55-79e5-4fa5-938a-8d86c3a292fb.0" configVersion="a0fc2441deaaf346ac6d097926f7517e00000000"/>
+		<Metadata name="Document.УстановкаТарифа.ObjectModule" id="d88f05df-c3e0-41ae-9669-a4e8024d4396.0" configVersion="a1b95ee29a97e046803494cf0a600e3a00000000"/>
+		<Metadata name="Enum.СпособыРаспределенияПерерасхода" id="e68b9ea0-a0a0-4c98-98dc-29a14c95000a" configVersion="072c0a26d52d344e8c27124aa1da89f900000000">
+			<Metadata name="Enum.СпособыРаспределенияПерерасхода.EnumValue.ПересчетТарифа" id="6cd78618-1545-429c-b2bf-8150903e316c"/>
+			<Metadata name="Enum.СпособыРаспределенияПерерасхода.EnumValue.ПоровнуНаБоксы" id="fe920846-c057-4698-9f26-b885b3c2cfd3"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыСчетчиков" id="01f3c469-985f-49e3-9847-1563480e18ab" configVersion="5c52355fc143c34f83e946f7de635ba500000000">
+			<Metadata name="Enum.ТипыСчетчиков.EnumValue.ОбщийПриборУчета" id="09ef9cc1-1f7a-40a2-ac58-3bfb031c69ce"/>
+			<Metadata name="Enum.ТипыСчетчиков.EnumValue.ИндивидуальныйПриборУчета" id="2d03d2dd-72c4-4c10-8258-f2e818b08526"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СобственникиБоксов" id="32d2d221-ca7c-4bac-ad48-c34e26e3cb57" configVersion="7490929a23ec3e489fa0e588c394999b00000000">
+			<Metadata name="InformationRegister.СобственникиБоксов.Resource.Собственник" id="63222695-7f32-4761-be1a-bb4e45aeb522"/>
+			<Metadata name="InformationRegister.СобственникиБоксов.Dimension.Бокс" id="c41e9acd-5d6c-42f5-ac7c-9bc8e9a416cb"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СчетчикиБоксов" id="016050d3-0671-452b-9943-49ae6b42b7cd" configVersion="be4d89c01448f848b00f51a0571994bc00000000">
+			<Metadata name="InformationRegister.СчетчикиБоксов.Dimension.Бокс" id="9508cf16-b900-4432-a5f2-2ad716da9fee"/>
+			<Metadata name="InformationRegister.СчетчикиБоксов.Resource.Счетчик" id="ddae3c6f-3992-4e1e-9be2-fa945229845a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СчетчикиВводов" id="1c093192-899a-41b6-8d52-c6fa53d5c1f0" configVersion="ac737343b0f5d1499bd07b7ac3cbf9c300000000">
+			<Metadata name="InformationRegister.СчетчикиВводов.Dimension.Ввод" id="c8aca354-32f6-455d-8bfc-c481914fce24"/>
+			<Metadata name="InformationRegister.СчетчикиВводов.Resource.Счетчик" id="daac2a39-59a6-40fe-bab7-6914d9a0c967"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТекущиеПоказания" id="a54667e6-2d9a-4c7a-8227-5304537f8a02" configVersion="9e8ef650a1e5e94cadff71d6173b865700000000">
+			<Metadata name="InformationRegister.ТекущиеПоказания.Resource.Показание" id="305d3068-34c3-4378-9956-293ef5d4ed63"/>
+			<Metadata name="InformationRegister.ТекущиеПоказания.Dimension.Счетчик" id="4566fb29-239c-4285-9104-9bf9e44dd17e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЦеныТарифов" id="c28e441b-3232-4312-a435-763502e17cf2" configVersion="c9896c9d2f33a24c930f8d0d3857584200000000">
+			<Metadata name="InformationRegister.ЦеныТарифов.Resource.Цена" id="1a51a2be-93b2-484f-91b7-cae929fd97e2"/>
+			<Metadata name="InformationRegister.ЦеныТарифов.Dimension.Тариф" id="c4c1ca66-4fcb-4276-ac8d-b381ca305bc9"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="de9a6aef-280d-4a59-9bf0-1352879a18d3" configVersion="4ec3ca30f73d7c42a679578f40d3128900000000"/>
+		<Metadata name="Report.БалансКВт" id="b2969f1a-27b8-4dd3-a631-2984f029881e" configVersion="6ecd5ef93fe6844996fede30f6f4a83c00000000"/>
+		<Metadata name="Report.БалансКВт.Template.ОсновнаяСхемаКомпоновкиДанных" id="500f1864-1df9-4258-b9c0-cdc7d3c3de08" configVersion="d9deb57d6077784dab25c4e1ae68823300000000"/>
+		<Metadata name="Report.БалансКВт.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="500f1864-1df9-4258-b9c0-cdc7d3c3de08.0" configVersion="de553da6c8d2e544b2b1e5e77f6f370200000000"/>
+		<Metadata name="Report.Задолженность" id="7717c9bc-c778-4000-9564-eab8fff0ddb2" configVersion="b2cf426009607c409c6bad9b89cf4d0300000000"/>
+		<Metadata name="Report.Задолженность.Template.ОсновнаяСхемаКомпоновкиДанных" id="093f9540-4436-4b4b-a97e-e3d6d6cd02fe" configVersion="a21ae0650bd6b24ea62ea8b988763caa00000000"/>
+		<Metadata name="Report.Задолженность.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="093f9540-4436-4b4b-a97e-e3d6d6cd02fe.0" configVersion="d45def173bf8514e83734b73e688772d00000000"/>
+		<Metadata name="Report.ИсторияУстановокСчётчиковИСобственниковПоБоксам" id="c250a520-1964-43a2-9c98-28e8d09b13fe" configVersion="9c4fcfaf736dc243a54145ecb7a5721900000000"/>
+		<Metadata name="Report.ИсторияУстановокСчётчиковИСобственниковПоБоксам.Template.ОсновнаяСхемаКомпоновкиДанных" id="fe702ff9-8b12-40fa-88b7-fae8c449ff3f" configVersion="a506e91ff7397344bdc3f8afbda5d21c00000000"/>
+		<Metadata name="Report.ИсторияУстановокСчётчиковИСобственниковПоБоксам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="fe702ff9-8b12-40fa-88b7-fae8c449ff3f.0" configVersion="26d0876ff1ae7943a0cf26c099b05e1400000000"/>
+		<Metadata name="Report.РасчетыСЭлектросетьюОстатки" id="78fccc3b-28db-4ece-be34-46aebe117237" configVersion="fc9ee06a0264ef49b3bbd445ace9fb7f00000000"/>
+		<Metadata name="Report.РасчетыСЭлектросетьюОстатки.Template.ОсновнаяСхемаКомпоновкиДанных" id="ddc0ce3f-62eb-4cbe-983d-a0d65954610a" configVersion="379ebd020718a84586369118fc3352cf00000000"/>
+		<Metadata name="Report.РасчетыСЭлектросетьюОстатки.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ddc0ce3f-62eb-4cbe-983d-a0d65954610a.0" configVersion="ef10653d91b14645b637db2872ef7f5b00000000"/>
+		<Metadata name="Report.СчётчикиКПоверке" id="b1a6aeb2-0d24-46aa-82db-f44171e1d3c4" configVersion="2d83a62abc7bb043b147705512b116a700000000"/>
+		<Metadata name="Report.СчётчикиКПоверке.Template.ОсновнаяСхемаКомпоновкиДанных" id="2b928745-a574-4408-b17c-c8267f01afcf" configVersion="d4f5a317af8bd141842a806cfb48a79b00000000"/>
+		<Metadata name="Report.СчётчикиКПоверке.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="2b928745-a574-4408-b17c-c8267f01afcf.0" configVersion="4cf7ee4ddb59214c83a972aa838b459900000000"/>
+		<Metadata name="Subsystem.ПриборыУчета" id="27bdfc7d-0bd1-465b-af44-5e01d23a30d8" configVersion="0f24c99e8822cb4cbff56ffda4f5ae9e00000000"/>
+		<Metadata name="Subsystem.Расчёты" id="9b9119b8-9e5e-4d87-9b42-5ead6d8df237" configVersion="42f9b6d8d496e84dbac3f52e97926ca100000000"/>
+		<Metadata name="Subsystem.Расчёты.CommandInterface" id="9b9119b8-9e5e-4d87-9b42-5ead6d8df237.1" configVersion="0ff49d9963c2fa4a82ecd24e78ec59e800000000"/>
+		<Metadata name="Subsystem.Тарифы" id="e97063b4-c33c-4b79-a351-97fde3689932" configVersion="f342ffc858f2b74296255cfc19b9d99d00000000"/>
+		<Metadata name="Subsystem.Тарифы.CommandInterface" id="e97063b4-c33c-4b79-a351-97fde3689932.1" configVersion="0de7e9c329040a46a5f4ef24f7f6ecda00000000"/>
+		<Metadata name="Subsystem.ЧленыКооператива" id="f8653ac2-4a43-455a-ac05-f9904e133291" configVersion="68126a00e1119848a6f2e27ac0f6c49500000000"/>
+		<Metadata name="Subsystem.ЧленыКооператива.CommandInterface" id="f8653ac2-4a43-455a-ac05-f9904e133291.1" configVersion="022f9262383f7541bc53382027c1688600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

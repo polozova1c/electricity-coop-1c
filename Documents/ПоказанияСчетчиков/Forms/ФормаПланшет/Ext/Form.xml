@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ЗаполнитьПоказания" id="74">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаполнитьПоказания</CommandName>
+				<BorderColor>style:ActivityColor</BorderColor>
+				<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+				<ExtendedTooltip name="ЗаполнитьПоказанияРасширеннаяПодсказка" id="75"/>
+			</Button>
+			<Button name="ФормаПредыдущий" id="76">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Предыдущий</CommandName>
+				<BorderColor>style:ActivityColor</BorderColor>
+				<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+				<ExtendedTooltip name="ФормаПредыдущийРасширеннаяПодсказка" id="77"/>
+			</Button>
+			<Button name="ФормаПровести" id="80">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Post</CommandName>
+				<BorderColor>style:ActivityColor</BorderColor>
+				<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+				<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="81"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Дата" id="5">
+			<DataPath>Объект.Date</DataPath>
+			<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<QuickChoice>true</QuickChoice>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ДЛФ=D</v8:content>
+				</v8:item>
+			</EditFormat>
+			<Font ref="style:LargeTextFont" kind="StyleItem"/>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<InputField name="Прогресс" id="54">
+			<DataPath>Прогресс</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<TitleFont ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+			<TitleLocation>None</TitleLocation>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<TextColor>style:ToolTipTextColor</TextColor>
+			<Font ref="style:LargeTextFont" kind="StyleItem"/>
+			<ContextMenu name="ПрогрессКонтекстноеМеню" id="55"/>
+			<ExtendedTooltip name="ПрогрессРасширеннаяПодсказка" id="56"/>
+		</InputField>
+		<InputField name="ТекущийСчетчик" id="58">
+			<DataPath>ТекущийСчетчик</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Счётчик</v8:content>
+				</v8:item>
+			</Title>
+			<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ContextMenu name="ТекущийСчетчикКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="ТекущийСчетчикРасширеннаяПодсказка" id="60"/>
+		</InputField>
+		<InputField name="ТекущееПредыдущее" id="62">
+			<DataPath>ТекущееПредыдущее</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущее</v8:content>
+				</v8:item>
+			</Title>
+			<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<Font ref="style:LargeTextFont" kind="StyleItem"/>
+			<ContextMenu name="ТекущееПредыдущееКонтекстноеМеню" id="63"/>
+			<ExtendedTooltip name="ТекущееПредыдущееРасширеннаяПодсказка" id="64"/>
+		</InputField>
+		<InputField name="ТекущееПоказание" id="66">
+			<DataPath>ТекущееПоказание</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показание</v8:content>
+				</v8:item>
+			</Title>
+			<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ContextMenu name="ТекущееПоказаниеКонтекстноеМеню" id="67"/>
+			<ExtendedTooltip name="ТекущееПоказаниеРасширеннаяПодсказка" id="68"/>
+			<Events>
+				<Event name="OnChange">ТекущееПоказаниеПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ТекущееПотребление" id="70">
+			<DataPath>ТекущееПотребление</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Потребление кВт</v8:content>
+				</v8:item>
+			</Title>
+			<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<Font ref="style:LargeTextFont" kind="StyleItem"/>
+			<ContextMenu name="ТекущееПотреблениеКонтекстноеМеню" id="71"/>
+			<ExtendedTooltip name="ТекущееПотреблениеРасширеннаяПодсказка" id="72"/>
+		</InputField>
+		<Button name="Следующий" id="78">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>Form.Command.Следующий</CommandName>
+			<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ButtonImportance>Main</ButtonImportance>
+			<ExtendedTooltip name="СледующийРасширеннаяПодсказка" id="79"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПоказанияСчетчиков</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="ТекущийИндекс" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий индекс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущийСчетчик" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий счетчик</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Счетчики</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущееПредыдущее" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущее предыдущее</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>12</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущееПоказание" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущее показание</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>12</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущееПотребление" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущее потребление</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>12</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Прогресс" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прогресс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтоОбщийСчетчик" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это общий счетчик</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьПоказания" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить показания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПоказания</Action>
+		</Command>
+		<Command name="Предыдущий" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>←</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Предыдущий</Action>
+		</Command>
+		<Command name="Следующий" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее →</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Следующий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Следующий</Action>
+		</Command>
+	</Commands>
+</Form>

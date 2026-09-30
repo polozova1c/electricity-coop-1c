@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="5">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="7"/>
+			<Events>
+				<Event name="OnChange">ДатаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Бокс" id="9">
+			<DataPath>Объект.Бокс</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<QuickChoice>true</QuickChoice>
+			<ContextMenu name="БоксКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="БоксРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="СтарыйСчетчик" id="13">
+			<DataPath>Объект.СтарыйСчетчик</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<QuickChoice>true</QuickChoice>
+			<ContextMenu name="СтарыйСчетчикКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СтарыйСчетчикРасширеннаяПодсказка" id="15"/>
+			<Events>
+				<Event name="OnChange">СтарыйСчетчикПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="НовыйСчетчик" id="17">
+			<DataPath>Объект.НовыйСчетчик</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новый счетчик</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НовыйСчетчикКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="НовыйСчетчикРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="ПоказаниеСтарогоПриДемонтаже" id="21">
+			<DataPath>Объект.ПоказаниеСтарогоПриДемонтаже</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПоказаниеСтарогоПриДемонтажеКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ПоказаниеСтарогоПриДемонтажеРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="НачальноеПоказаниеНового" id="25">
+			<DataPath>Объект.НачальноеПоказаниеНового</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начальное показание нового</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НачальноеПоказаниеНовогоКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="НачальноеПоказаниеНовогоРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Комментарий" id="29">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="31"/>
+		</InputField>
+		<InputField name="ПотреблениеДоДемонтажа" id="33">
+			<DataPath>Объект.ПотреблениеДоДемонтажа</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПотреблениеДоДемонтажаКонтекстноеМеню" id="34"/>
+			<ExtendedTooltip name="ПотреблениеДоДемонтажаРасширеннаяПодсказка" id="35"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЗаменаСчетчика</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

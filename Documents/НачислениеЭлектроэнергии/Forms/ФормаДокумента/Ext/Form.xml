@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаРассчитатьНачисление" id="141">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.РассчитатьНачисление</CommandName>
+				<ExtendedTooltip name="ФормаРассчитатьНачислениеРасширеннаяПодсказка" id="142"/>
+			</Button>
+			<Button name="ФормаПечатьКвитанций" id="143">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПечатьКвитанций</CommandName>
+				<ExtendedTooltip name="ФормаПечатьКвитанцийРасширеннаяПодсказка" id="144"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа7" id="217">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="218"/>
+			<ChildItems>
+				<InputField name="Номер" id="213">
+					<DataPath>Объект.Number</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="214"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="215"/>
+				</InputField>
+				<InputField name="Дата" id="209">
+					<DataPath>Объект.Date</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="210"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="211"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="172">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="173"/>
+			<ChildItems>
+				<InputField name="Период" id="9">
+					<DataPath>Объект.Период</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Месяц начисления</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выберите любую дату месяца</v8:content>
+						</v8:item>
+					</ToolTip>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<QuickChoice>true</QuickChoice>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="11"/>
+				</InputField>
+				<InputField name="СпособРаспределения" id="17">
+					<DataPath>Объект.СпособРаспределения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СпособРаспределенияКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="СпособРаспределенияРасширеннаяПодсказка" id="19"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа4" id="178">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="179"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="176">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="177"/>
+					<ChildItems>
+						<InputField name="ОбщееПотреблениеУчетноеКвт" id="278">
+							<DataPath>Объект.ОбщееПотреблениеУчетноеКвт</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Учётный расход (с потерями сети), кВт</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОбщееПотреблениеУчетноеКвтКонтекстноеМеню" id="279"/>
+							<ExtendedTooltip name="ОбщееПотреблениеУчетноеКвтРасширеннаяПодсказка" id="280"/>
+						</InputField>
+						<InputField name="ОбщееПотреблениеКвт" id="29">
+							<DataPath>Объект.ОбщееПотреблениеКвт</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОбщееПотреблениеКвтКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ОбщееПотреблениеКвтРасширеннаяПодсказка" id="31"/>
+						</InputField>
+						<InputField name="ИндивидуальноеПотреблениеКвт" id="33">
+							<DataPath>Объект.ИндивидуальноеПотреблениеКвт</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИндивидуальноеПотреблениеКвтКонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="ИндивидуальноеПотреблениеКвтРасширеннаяПодсказка" id="35"/>
+						</InputField>
+						<InputField name="ПерерасходКвт" id="37">
+							<DataPath>Объект.ПерерасходКвт</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПерерасходКвтКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ПерерасходКвтРасширеннаяПодсказка" id="39"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа2" id="174">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="175"/>
+					<ChildItems>
+						<InputField name="СуммаАдминистрирования" id="246">
+							<DataPath>Объект.СуммаАдминистрирования</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СуммаАдминистрированияКонтекстноеМеню" id="247"/>
+							<ExtendedTooltip name="СуммаАдминистрированияРасширеннаяПодсказка" id="248"/>
+						</InputField>
+						<InputField name="Тариф" id="13">
+							<DataPath>Объект.Тариф</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТарифКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ТарифРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="ЦенаТарифа" id="21">
+							<DataPath>Объект.ЦенаТарифа</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЦенаТарифаКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="ЦенаТарифаРасширеннаяПодсказка" id="23"/>
+						</InputField>
+						<InputField name="ФактическийТариф" id="25">
+							<DataPath>Объект.ФактическийТариф</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФактическийТарифКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ФактическийТарифРасширеннаяПодсказка" id="27"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа6" id="182">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="183"/>
+			<ChildItems>
+				<InputField name="КоличествоБоксов" id="41">
+					<DataPath>Объект.КоличествоБоксов</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоличествоБоксовКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="КоличествоБоксовРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<UsualGroup name="Группа5" id="180">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="181"/>
+					<ChildItems>
+						<InputField name="КонтрольнаяСумма" id="45">
+							<DataPath>Объект.КонтрольнаяСумма</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КонтрольнаяСуммаКонтекстноеМеню" id="46"/>
+							<ExtendedTooltip name="КонтрольнаяСуммаРасширеннаяПодсказка" id="47"/>
+						</InputField>
+						<InputField name="СуммаНачислено" id="49">
+							<DataPath>Объект.СуммаНачислено</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СуммаНачисленоКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="СуммаНачисленоРасширеннаяПодсказка" id="51"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Начисления" id="53">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Начисления</DataPath>
+			<ShowCommandBar>auto</ShowCommandBar>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НачисленияКонтекстноеМеню" id="54"/>
+			<AutoCommandBar name="НачисленияКоманднаяПанель" id="55"/>
+			<ExtendedTooltip name="НачисленияРасширеннаяПодсказка" id="56"/>
+			<SearchStringAddition name="НачисленияСтрокаПоиска" id="57">
+				<AdditionSource>
+					<Item>Начисления</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НачисленияСтрокаПоискаКонтекстноеМеню" id="58"/>
+				<ExtendedTooltip name="НачисленияСтрокаПоискаРасширеннаяПодсказка" id="59"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НачисленияСостояниеПросмотра" id="60">
+				<AdditionSource>
+					<Item>Начисления</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НачисленияСостояниеПросмотраКонтекстноеМеню" id="61"/>
+				<ExtendedTooltip name="НачисленияСостояниеПросмотраРасширеннаяПодсказка" id="62"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НачисленияУправлениеПоиском" id="63">
+				<AdditionSource>
+					<Item>Начисления</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НачисленияУправлениеПоискомКонтекстноеМеню" id="64"/>
+				<ExtendedTooltip name="НачисленияУправлениеПоискомРасширеннаяПодсказка" id="65"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="НачисленияНомерСтроки" id="74">
+					<DataPath>Объект.Начисления.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачисленияНомерСтрокиКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="НачисленияНомерСтрокиРасширеннаяПодсказка" id="76"/>
+				</LabelField>
+				<InputField name="НачисленияБокс" id="78">
+					<DataPath>Объект.Начисления.Бокс</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияБоксКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="НачисленияБоксРасширеннаяПодсказка" id="80"/>
+				</InputField>
+				<InputField name="НачисленияСобственник" id="82">
+					<DataPath>Объект.Начисления.Собственник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияСобственникКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="НачисленияСобственникРасширеннаяПодсказка" id="84"/>
+				</InputField>
+				<InputField name="НачисленияКвтИндивидуально" id="86">
+					<DataPath>Объект.Начисления.КвтИндивидуально</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияКвтИндивидуальноКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="НачисленияКвтИндивидуальноРасширеннаяПодсказка" id="88"/>
+				</InputField>
+				<InputField name="НачисленияКвтОДН" id="90">
+					<DataPath>Объект.Начисления.КвтОДН</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияКвтОДНКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="НачисленияКвтОДНРасширеннаяПодсказка" id="92"/>
+				</InputField>
+				<InputField name="НачисленияТарифПримененный" id="94">
+					<DataPath>Объект.Начисления.ТарифПримененный</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияТарифПримененныйКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="НачисленияТарифПримененныйРасширеннаяПодсказка" id="96"/>
+				</InputField>
+				<InputField name="НачисленияСуммаИндивидуально" id="98">
+					<DataPath>Объект.Начисления.СуммаИндивидуально</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияСуммаИндивидуальноКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="НачисленияСуммаИндивидуальноРасширеннаяПодсказка" id="100"/>
+				</InputField>
+				<InputField name="НачисленияСуммаОДН" id="102">
+					<DataPath>Объект.Начисления.СуммаОДН</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияСуммаОДНКонтекстноеМеню" id="103"/>
+					<ExtendedTooltip name="НачисленияСуммаОДНРасширеннаяПодсказка" id="104"/>
+				</InputField>
+				<InputField name="НачисленияСуммаИтого" id="106">
+					<DataPath>Объект.Начисления.СуммаИтого</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияСуммаИтогоКонтекстноеМеню" id="107"/>
+					<ExtendedTooltip name="НачисленияСуммаИтогоРасширеннаяПодсказка" id="108"/>
+				</InputField>
+				<InputField name="НачисленияВвод" id="110">
+					<DataPath>Объект.Начисления.Ввод</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачисленияВводКонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="НачисленияВводРасширеннаяПодсказка" id="112"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.НачислениеЭлектроэнергии</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РассчитатьНачисление" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать начисление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать начисление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РассчитатьНачисление</Action>
+		</Command>
+		<Command name="ПечатьКвитанций" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать квитанций</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать квитанций</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПечатьКвитанций</Action>
+		</Command>
+	</Commands>
+</Form>
