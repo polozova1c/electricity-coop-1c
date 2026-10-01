@@ -1,0 +1,17 @@
+# 1C binary files
+*.1CD
+*.1CD.lock
+*.cfe
+*.cf
+
+# Logs
+*.log
+1Cv8Log/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
